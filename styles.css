@@ -1,0 +1,806 @@
+*{
+    
+
+}
+/* Navbar */
+
+.navbar{
+    
+    position: fixed;
+    color: #fff;
+}
+
+.nav-logo{
+    width: 35%;
+    height: 30px;
+}
+
+.container-fluid{
+    text-align: center;
+}
+
+
+/* Header */
+.header{
+    position: relative;
+    height: 1200px;
+    text-align: center;
+    background-color: black;
+    
+
+}
+.header::before{
+    content:"";
+    position: absolute;
+    top:0px;
+    right: 0px;
+    bottom:0px;
+    left: 0px;
+    opacity: 0.4;
+    background-image: url(img/Header1.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    filter: blur(5px);
+   
+}
+    
+    
+
+.h-h1{
+    padding-top: 50px;
+    font-size: 5rem;
+    color: #fff;
+}
+.s-h1{
+    color: #FFB100;
+
+}
+.h-p{
+    font-size: 3rem;
+    color: #fff;
+}
+.s-p{
+    color: #FFB100;
+}
+.logo{
+    height: 900px;
+    width: 900px;
+    padding-top: 70px;
+}
+
+    
+/* Gallery */
+.gallery-bg{
+    position: relative;
+    
+    text-align: center;
+    background-color: black;
+
+}
+.gallery-bg::before{
+    content:"";
+    position: absolute;
+    top:0px;
+    right: 0px;
+    bottom:0px;
+    left: 0px;
+    opacity: 0.4;
+    background-image: url(img/flower\ 7.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+.gal-h1{
+    color: #fff;
+}
+
+.category{
+   
+}
+.gal-h1{
+    text-align: center;
+    padding-top: 30px;
+}
+.carousel-item{
+    padding: 1% 15%;
+  }
+.carousel{
+
+   
+   padding-bottom: 30px;
+
+}
+
+.carousel-inner{
+    
+}
+.flower-img{
+    height: 576px;
+    width: 768px;
+    border-radius: 25px;
+    
+}
+.carousel-control-prev{
+  
+    margin-left: 200px;
+}
+.carousel-control-next{
+  
+    margin-right: 200px;
+}
+
+/* Wedding and cradel Decoration */
+#Wedding{
+
+   
+}
+.wedding-c{
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFBEB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper{
+    width: 60%;
+    height: fit-content;
+}
+.swiper-slider img{
+    width: 100%;
+    
+    
+}
+.wed-img{
+    width: 896px;
+    height: 672px;
+    border-radius: 10%;
+}
+.wed-h1{
+    padding-right: 40px;
+}
+
+.swiper .swiper-pagination-bullet-active{
+    background-color:#f5ebc6 ;
+}
+.swiper .swiper-btn{
+    color:#f5ebc6;
+}
+
+.cradel-img{
+    width: 896.7px;
+    height: 597.8px;
+}
+.crad-h1{
+    padding-left: 40px;
+}
+
+/* Flower section */
+#Flower-section{
+    text-align: center;
+    
+    padding: 50px 0 50px 0;
+    background-color:#FFFBEB;
+}
+.flower{
+    
+    width: 45%;
+    height: 300px;
+    border-radius: 100%;
+    padding-top: 20px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    background-color: #FFE7CC;   
+}
+
+.flower:hover{
+    transform: scale(1.5);
+}
+.fc-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.col2{
+    margin-left: 50px
+    
+}
+#Birthday{
+    text-align: center;
+   
+    padding: 50px 0 50px 0;
+    background-color:#FFFBEB;
+}
+.fb-h1{
+    font-size: 3.5rem;
+    padding-bottom: 30px;
+}
+.fb-p{
+    padding-bottom: 50px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.btn-fb{
+    font-size: 1.5rem;
+    width: 200px;
+    border-radius: 5%;
+    
+}
+
+/* features */
+#features{
+
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+  
+  }
+  .features-box{
+    text-align: center;
+    padding: 4.5%;
+  }
+  .icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+  }
+  .icon:hover{
+    color: #ff4c68;
+  }
+
+/* testimonials */
+
+#testimonials{
+
+    padding: 150px 0px 150px 0px ;
+    background-color:#5c5b5b;
+    text-align: center;
+    color: white;
+}
+.testimonials-img{
+    width:15%; 
+    margin: 20px;
+    border-radius: 100%;
+  }
+.kartik-img{
+    height: 170px;
+}
+.testimonial-text{
+    padding-bottom: 20px;
+}
+
+/* contact form */
+#Contact{
+text-align: center;
+padding: 40px 0 40px 0;
+
+background-color:#FFFBEB;
+}
+.col-f{
+    margin-left: 50px;
+}
+.label{
+    font-weight:800;
+    padding-bottom: 5px;
+}
+.c-input{
+    width: 30%;
+    background-color: #FFE7CC;
+}
+.o-input{
+    background-color: #FFE7CC;
+}
+#cars{
+    margin-bottom: 20px;
+}
+.btn-c{
+    width: 150px;
+    border-radius: 5%; 
+    background-color: #f0c99c; 
+}
+.btn-c:hover{
+    
+    background-color: #e7c297;
+}
+
+/* Footer-section */
+#Footer{
+    background-color:#5c5b5b;
+    text-align: center;  
+}
+.footer{
+    padding: 10% 30% 1.5% 30%;
+    
+}
+.f-h3{
+    color: #fff;
+    padding-bottom: 10px;
+}
+.f-list{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.f-list:hover{
+    color: #FFE7CC;
+}
+.f-p{
+    padding-top: 150px;
+}
+
+/* Responsive */
+@media (max-width: 1028px){
+    #Home{
+        position: static;
+        height: 900px;
+    }
+   .logo{
+    height: 500px;
+    width: 50%;
+   }
+.flower-img{
+    height:384px;
+    width: 512px;
+    border-radius: 25px;
+    
+}
+.carousel-control-prev{
+  
+    margin-left: 100px;
+}
+.carousel-control-next{
+  
+    margin-right: 100px;
+}
+.kartik-img{
+    height: 80px;
+}
+#Wedding{
+   padding-top: 10px;
+}
+.wedding-c{
+    text-align: center;
+    padding-top: 10px;
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFBEB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper{
+    width: 100%;
+    height: fit-content;
+    
+}
+.swiper-slider img{
+    width: 50%;
+   
+   
+}
+.wed-img{
+    height:240px;
+    width:320px;
+    border-radius: 10%;
+}
+.wed-h1{
+    padding-right: 20px;
+}
+
+.swiper .swiper-pagination-bullet-active{
+    background-color:#f5ebc6 ;
+}
+.swiper .swiper-btn{
+    color:#f5ebc6;
+}
+
+.cradel-img{
+    width: 294px;
+    height:240px;
+}
+.crad-h1{
+    padding-left: 40px;
+}
+#Flower-section{
+    text-align: center;
+    padding: 10px 0 10px 0;
+    background-color:#FFFBEB;
+}
+.flower{
+    
+    width: 35%;
+    height: 200px;
+    border-radius: 100%;
+    padding-top: 20px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    background-color: #FFE7CC;   
+}
+
+.flower:hover{
+    transform: scale(1.5);
+}
+.fc-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.col2{
+    margin-left: 50px
+    
+}
+#Birthday{
+    text-align: center;
+   
+    padding: 25px 0 25px 0;
+    background-color:#FFFBEB;
+}
+.fb-h1{
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+.fb-p{
+    padding-bottom: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.btn-fb{
+    font-size: 1rem;
+    width: 150px;
+    border-radius: 5%;
+    
+}
+
+#features{
+
+    padding: 5% 10%;
+    background-color: white;
+    position: relative;
+  
+  }
+  .features-box{
+    text-align: center;
+    padding: 3%;
+  }
+  .icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+  }
+  .icon:hover{
+    color: #ff4c68;
+  }
+#testimonials{
+
+    padding: 150px 0px 150px 0px ;
+    background-color:#5c5b5b;
+    text-align: center;
+    color: white;
+}
+.testimonials-img{
+    width:15%; 
+    margin: 20px;
+    border-radius: 100%;
+}
+.kartik-img{
+    
+}
+.testimonial-text{
+    padding-bottom: 20px;
+}
+#Contact{
+    text-align: center;
+    padding: 40px 0 40px 0;
+    
+    background-color:#FFFBEB;
+    }
+    .col-f{
+        margin-left: 40px;
+    }
+    .label{
+        font-weight:800;
+        padding-bottom: 5px;
+    }
+    .c-input{
+        width: 30%;
+        background-color: #FFE7CC;
+    }
+    .o-input{
+        background-color: #FFE7CC;
+    }
+    #cars{
+        margin-bottom: 20px;
+    }
+    .btn-c{
+        width: 150px;
+        border-radius: 5%; 
+        background-color: #f0c99c; 
+    }
+    .btn-c:hover{
+        
+        background-color: #e7c297;
+    }
+#Footer{
+    background-color:#5c5b5b;
+    text-align: center;  
+}
+.footer{
+    padding: 10% 30% 1.5% 30%;
+    
+}
+.f-h3{
+    color: #fff;
+    padding-bottom: 10px;
+}
+.f-list{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.f-list:hover{
+    color: #FFE7CC;
+}
+.f-p{
+    padding-top: 150px;
+}
+
+
+}
+
+
+@media (max-width: 781px){
+#Home{
+        position: static;
+        height: 800px;
+    }
+.header{
+        height: 800px;
+    }
+.h-h1{
+        font-size: 4rem;
+    }
+.h-p{
+        font-size: 2rem;
+    }
+.logo{
+        height: 300px;
+        width: 300px;
+        padding-bottom: 100;
+    }
+.gallery-bg{
+        position: relative;
+        
+        text-align: center;
+        background-color: black;
+    
+    }
+.gallery-bg::before{
+        content:"";
+        position: absolute;
+        top:0px;
+        right: 0px;
+        bottom:0px;
+        left: 0px;
+        opacity: 0.4;
+        background-image: url(img/flower\ 7.jpg);
+        background-repeat: no-repeat ;
+        background-size: 100% 100%;
+    }
+.flower-img{
+        height:240px;
+        width: 320px;
+        border-radius: 25px;
+        
+    }
+.carousel-control-prev{
+      
+        margin-left: 60px;
+    }
+.carousel-control-next{
+      
+        margin-right: 60px;
+    }
+.wedding-c{
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background-color: #FFFBEB;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.swiper{
+        width: 120%;
+        height: fit-content;
+    }
+.swiper-slider img{
+        width: 100%;
+        
+        
+    }
+.wed-img{
+    height:150px;
+    width:190px;
+    border-radius: 10%;
+    }
+.wed-h1{
+        padding-right: 20px;
+    }
+    
+.swiper .swiper-pagination-bullet-active{
+        background-color:#f5ebc6 ;
+        font-size: 0.5rem;
+    }
+.swiper .swiper-btn{
+        color:#f5ebc6;
+        padding:20px auto;
+        
+    }
+    
+.cradel-img{
+        width:170px;
+        height:130px
+        
+    }
+.crad-h1{
+        padding-left: 20px;
+    }
+
+#Flower-section{
+        text-align: center;
+        
+        padding: 50px 0 50px 0;
+        background-color:#FFFBEB;
+    }
+    .flower{
+        
+        width: 50%;
+        height: 130px;
+        border-radius: 100%;
+        padding-top: 10px;
+        margin-left: 5px;
+        padding-bottom: 10px;
+        background-color: #FFE7CC;   
+    }
+    
+    .flower:hover{
+        transform: scale(1.5);
+    }
+    .fc-img{
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+    }
+    .col2{
+        margin-left: 30px
+        
+    }
+    #Birthday{
+        text-align: center;
+       
+        padding: 20px 0 20px 0;
+        background-color:#FFFBEB;
+    }
+    .fb-h1{
+        font-size: 1.5rem;
+        padding-bottom: 30px;
+    }
+    .fb-p{
+        padding-bottom: 50px;
+        font-size: 0.5rem;
+        text-align: center;
+    }
+    .btn-fb{
+        font-size: 0.5rem;
+        width: 100px;
+        border-radius: 5%;
+        
+    }
+    
+    /* features */
+    #features{
+    
+        padding: 5% 10%;
+        background-color: white;
+        position: relative;
+      
+      }
+      .features-box{
+        text-align: center;
+        padding: 3%;
+      }
+      .icon{
+        color: #ef8172;
+        margin-bottom: 1rem;
+      }
+      .icon:hover{
+        color: #ff4c68;
+      }
+    
+    /* testimonials */
+    
+    #testimonials{
+    
+        padding: 150px 0px 150px 0px ;
+        background-color:#5c5b5b;
+        text-align: center;
+        color: white;
+    }
+    .testimonials-img{
+        width:35%; 
+        margin: 20px;
+        border-radius: 100%;
+      }
+    .kartik-img{
+        height: 100px;
+    }
+    .testimonial-text{
+        padding-bottom: 30px;
+    }
+    
+    /* contact form */
+    #Contact{
+    text-align: center;
+    padding: 20px 0 20px 0;
+    
+    background-color:#FFFBEB;
+    }
+    .col-f{
+        margin-left: 20px;
+    }
+    .label{
+        font-weight:800;
+        padding-bottom: 3px;
+    }
+    .c-input{
+        width: 150px;
+        background-color: #FFE7CC;
+    }
+    .o-input{
+        background-color: #FFE7CC;
+    }
+    #cars{
+        margin-bottom: 20px;
+    }
+    .btn-c{
+        width: 150px;
+        border-radius: 5%; 
+        background-color: #f0c99c; 
+    }
+    .btn-c:hover{
+        
+        background-color: #e7c297;
+    }
+    .map{
+        height: 400px;
+        width: 300px;
+    }
+    /* Footer-section */
+    #Footer{
+        background-color:#5c5b5b;
+        text-align: center;  
+    }
+    .footer{
+        padding: 10% 30% 1.5% 30%;
+        
+    }
+    .f-h3{
+        font-size: 1rem;
+        color: #fff;
+        padding-bottom: 10px;
+    }
+    .f-list{
+        font-size: 0.5rem;
+        text-decoration: none;
+        color: #fff;
+        
+    }
+    .f-list:hover{
+        color: #FFE7CC;
+    }
+    .f-p{
+        font-size: 0.5rem;
+        padding-top: 50px;
+    }
+    
+    
+
+}
